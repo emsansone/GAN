@@ -23,7 +23,8 @@ In _gan.py_ set:
     GEN_UPDATE = 1
 
 This runs the training for 1000 games. In this case, the gradients of both the discriminator and the generator are updated according to a balanced strategy.
-See the following animation for an intuitive understanding of the training procedure: ![Animation](img/img_1500_1_1.gif)
+See the following animation for an intuitive understanding of the training procedure: 
+![Animation](img/img_1500_1_1.gif)
 
 The generator takes in input some noise samples (drawn from a uniform distribution, see the blue points in the lower part of the animation) and transforms them in new samples (see the blue points in the upper part of the the animation), which tend to be similar to the training data (drawn from a Gaussian distribution, see the green points and the green line in the animation).
 The discriminator (the blue line) predicts if data are fake (low score) or real (high score).
