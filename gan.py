@@ -17,8 +17,8 @@ from scipy.stats import norm
 import os
 
 GAMES = 500
-DISCR_UPDATE = 1
-GEN_UPDATE = 50
+DISCR_UPDATE = 100
+GEN_UPDATE = 1
 
 # Training data
 class RealDistribution:
